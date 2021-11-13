@@ -35,7 +35,7 @@ Run ${chalk.cyan(`${program.name} --help`)} to see all options.
 `;
 };
 
-exports.alreadyExists = function(projectName) {
+exports.folderNotEmpty = function(projectName) {
   return `
 Uh oh! Looks like the directory ${chalk.red(projectName)} is not empty. These files could conflict:`;
 };
